@@ -13,4 +13,4 @@ BEGIN
     WHERE U.id=user_id);
   UPDATE users SET average_score = weighed_avg_score WHERE id=user_id;
 END;
-
+$$
